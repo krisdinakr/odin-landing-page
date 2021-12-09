@@ -211,3 +211,13 @@ figure {
   font-weight: bold;
   cursor: pointer;
 }
+
+footer {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-txt-color);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
