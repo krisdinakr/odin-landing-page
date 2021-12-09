@@ -112,6 +112,7 @@ nav a {
 }
 
 .info__title {
+  font-size: 36px;
   text-align: center;
   padding: 1rem;
 }
@@ -144,4 +145,30 @@ figure {
   letter-spacing: 1px;
   font-weight: lighter;
   text-align: center;
+}
+
+.testi {
+  background-color: var(--quote-bg-color);
+  height: 400px;
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testi__body {
+  width: 70%;
+}
+
+.testi__text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.testi__small {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: right;
 }
