@@ -97,9 +97,51 @@ nav a {
   height: 250px;
 }
 
-.hero__img {
+.hero__img,
+.card__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+.info {
+  width: 100%;
+  background-color: white;
+  padding: 2rem;
+}
+
+.info__title {
+  text-align: center;
+  padding: 1rem;
+}
+
+.info__wrapper {
+  width: 100%;
+  padding: 1.2rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.card {
+  width: 200px;
+}
+
+figure {
+  width: 100%;
+  height: 200px;
+  margin-bottom: .8rem;
+}
+
+.card__img {
+  border: 3px solid var(--button-bg-color);
+  border-radius: 15px;
+}
+
+.card__text {
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: lighter;
 }
